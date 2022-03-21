@@ -1,0 +1,5 @@
+{
+    "PORT": 5000,
+    "URL_PUBLIC": "https://my-cloud-disk-front.herokuapp.com",
+    "SECRET_WORD_JWT": "ркерыввкен уп у"
+}

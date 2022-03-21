@@ -1,0 +1,18 @@
+.navbar-avatar {
+    margin-right: 25%;
+    height: auto;
+    text-align: center;
+    img {
+        width: 35px;
+        height: 35px;
+    }
+}
+.navbar-avatar__name {
+    color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.nav-img {
+    object-fit: cover;
+    border-radius: 50%;
+}

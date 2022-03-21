@@ -1,0 +1,58 @@
+.profile__change-avatar {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .3s all;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.568);
+    padding: 10px 10px 30px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+}
+.profile__img-wrapper {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid rgb(218, 218, 218);
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    &:hover {
+        .profile__change-avatar {
+            opacity: 1;
+        }
+    }
+}
+
+.profile__img {
+    border-radius: 50%;
+    object-fit: cover;
+    // margin: 0 auto;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.profile__left {
+    width: 45%;
+}
+.profile__right {
+    width: 45%;
+}
+.profile__button-save {
+    margin-top: 25px;
+}
+.profile {
+    margin-bottom: 30px;
+}

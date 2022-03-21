@@ -1,0 +1,9 @@
+.container {
+    max-width: 1000px;
+    &--top {
+        margin-top: 40px;
+    }
+}
+.app {
+    min-height: 100vh;
+}

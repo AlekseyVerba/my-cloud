@@ -1,0 +1,32 @@
+.file-list__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.file-list__button {
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    &--string {
+        margin-left: 20px;
+    }
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+.form-group--filter {
+    margin-right: 20px;
+}
+.files--plitka {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.file-list__header-right {
+    display: flex;
+    align-items: center;
+}

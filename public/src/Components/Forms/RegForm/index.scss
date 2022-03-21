@@ -1,0 +1,28 @@
+.form {
+    // text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    input {
+        width: 100%;
+    }
+    label {
+        width: 100%;
+    }
+    button {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.mention {
+    text-align: center;
+}
+
+.mention--success {
+    color: #3fb618;
+}
+.mention--error {
+    color: #ff0039;
+}

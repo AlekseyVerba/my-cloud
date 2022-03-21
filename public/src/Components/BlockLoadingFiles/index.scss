@@ -1,0 +1,31 @@
+.block-loading-files {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(172, 172, 172);
+    height: 350px;
+    width: 350px;
+    padding: 25px;
+    padding-top: 50px;
+    overflow-y: auto;
+}
+.btn-close__block-loading-files {
+    right: 15px;
+    top: 15px;
+    position: absolute;
+}
+.block-loading-file {
+    margin-bottom: 10px;
+}
+.block-loading-file__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.block-loading-file__name {
+    font-size: 19px;
+}
+.block-loading-file__close {
+    font-size: 20px;
+    cursor: pointer;
+}

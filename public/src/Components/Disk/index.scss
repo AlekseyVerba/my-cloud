@@ -1,0 +1,23 @@
+.header-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.header-panel__left {
+    button + button {
+        margin-left: 15px;
+    }
+}
+
+.header-panel__label-file {
+    margin-left: 15px;
+}
+.block-dragon {
+    height: calc(100vh - 200px);
+    border: 2px dotted rgb(185, 185, 185);
+    background: rgb(235, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
